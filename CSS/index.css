@@ -251,6 +251,9 @@ header .center-content .overlay {
   padding: 20px 0;
   margin: 0 auto;
 }
+.main-container .selection-container h2 {
+  font-size: 3rem;
+}
 .main-container .selection-container .area-buttons ul {
   display: flex;
   align-items: center;
@@ -258,6 +261,9 @@ header .center-content .overlay {
   overflow: hidden;
   justify-content: space-around;
   padding-top: 20px;
+}
+.main-container .selection-container .area-buttons li {
+  font-size: 1.6rem;
 }
 header {
   display: flex;
