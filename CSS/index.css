@@ -168,3 +168,17 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v13/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Sniglet';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Sniglet Regular'), local('Sniglet-Regular'), url(https://fonts.gstatic.com/s/sniglet/v10/cIf9MaFLtkE3UjaJ9C6hZA.ttf) format('truetype');
+}
