@@ -126,48 +126,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-* {
-  box-sizing: border-box;
-}
-html {
-  font-size: 62.5%;
-}
-html,
-body {
-  font-family: "Roboto", sans-serif;
-}
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "poppins";
-}
-h1 {
-  font-size: 4rem;
-}
-h2 {
-  font-size: 3.2rem;
-  padding-bottom: 10px;
-}
-h4 {
-  font-size: 2.5rem;
-  padding-bottom: 10px;
-}
-p {
-  line-height: 1.5;
-  font-size: 1.6rem;
-  padding-bottom: 10px;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-.container {
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
-}
 @font-face {
   font-family: 'Pacifico';
   font-style: normal;
@@ -181,4 +139,83 @@ img {
   font-weight: 400;
   font-display: swap;
   src: local('Sniglet Regular'), local('Sniglet-Regular'), url(https://fonts.gstatic.com/s/sniglet/v10/cIf9MaFLtkE3UjaJ9C6hZA.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Sniglet', cursive;
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+header .center-content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+header .center-content h1 {
+  text-align: center;
+  font-size: 8rem;
+  font-family: 'Pacifico', cursive;
+  padding: 20px;
+  z-index: 1;
+}
+header .center-content p {
+  z-index: 1;
+  font-size: 2rem;
+}
+header .center-content .video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+header .center-content .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #C5CBD3;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+.main-container .selection-container {
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.main-container .selection-container .area-buttons ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  justify-content: space-around;
+  padding-top: 20px;
 }

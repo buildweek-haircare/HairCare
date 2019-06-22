@@ -10,28 +10,30 @@
     <body>
     <script defer="defer" src="./JS/main.js"></script>
     <script defer="defer" src="./JS/dropdown.js"></script>
-    <!-- navigation button and dropdown menu... -->
-    <div class="dropdown">
-        <div class="dropdown-button dropDown-hidden">logo</div>
-        <nav>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Contact Us</a>
-        <a href="">Log in/ Sign in</a>
-        </nav>
-    </div>
+
     <!-- header and video Background.... -->
     <header>
-        <div class="center-content">
-        <h1>HairCare</h1>
-        <p>Find the stylist right for you</p>
+    <!-- navigation button and dropdown menu... -->
+        <div class="dropdown">
+            <div class="dropdown-button dropDown-hidden">logo</div>
+            <nav>
+            <a href="">Home</a>
+            <a href="./Pages/about.html">About</a>
+            <a href="">Contact Us</a>
+            <a href="">Log in/ Sign in</a>
+            </nav>
         </div>
+        <div class="center-content">
+            <h1>HairCare</h1>
+            <p>Find the stylist right for you</p>   
         <div class="video-container">
+            <div class="overlay"></div>
             <video autoplay loop muted>
                 <source src="./IMG/badass-woman.mp4" type="video/mp4">
-            </video>
+            </video>   
         </div>
         <div class="header-button">headerButton</div>
+    </div>
     </header>
     <!-- selection section..... -->
     <div class="main-container">    
@@ -39,6 +41,7 @@
             <h2>Select stylist in your area</h2>
         <div class="area-buttons">
             <ul>
+                <li>All</li>
                 <li>North Side</li>
                 <li>Downtown</li>
                 <li>South Side</li>
