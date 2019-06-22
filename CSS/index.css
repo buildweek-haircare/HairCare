@@ -148,10 +148,10 @@ html {
 }
 html,
 body {
-  font-family: 'Sniglet', cursive;
+  font-family: "Sniglet", cursive;
 }
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 h1 {
   font-size: 4rem;
@@ -163,6 +163,47 @@ h2 {
 img {
   max-width: 100%;
   height: auto;
+}
+.dropdown {
+  z-index: 2;
+  position: absolute;
+  left: 25px;
+  cursor: pointer;
+}
+.dropdown .dropdown-button {
+  padding: 15px;
+  color: ;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.dropdown .dropdown-button:hover {
+  background-color: ;
+}
+.dropdown .dropdown-content {
+  width: 100%;
+  position: absolute;
+  background-color: ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  border: 2.5px solid;
+  padding: 20px;
+}
+.dropdown .dropdown-link {
+  width: 100%;
+  text-align: center;
+  padding: 12px 16px;
+  font-size: 18px;
+  text-decoration: none;
+  color: ;
+}
+.dropdown .dropdown-link:hover {
+  color: ;
+  background-color: ;
+}
+.dropdown .dropdown-hidden {
+  display: none;
 }
 header .center-content {
   position: relative;
@@ -177,7 +218,7 @@ header .center-content {
 header .center-content h1 {
   text-align: center;
   font-size: 8rem;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   padding: 20px;
   z-index: 1;
 }
@@ -195,7 +236,7 @@ header .center-content .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #C5CBD3;
+  background-color: #c5cbd3;
   width: 100%;
   height: 100vh;
   opacity: 0.5;
