@@ -173,7 +173,7 @@ img {
 .dropdown .dropdown-button {
   padding: 15px;
   color: ;
-  font-size: 3rem;
+  font-size: 30px;
   font-weight: bold;
 }
 .dropdown .dropdown-button:hover {
@@ -186,15 +186,14 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px;
-  border: 2.5px solid;
+  margin-top: 5px;
   padding: 20px;
 }
 .dropdown .dropdown-link {
   width: 100%;
   text-align: center;
-  padding: 12px 16px;
-  font-size: 18px;
+  padding: 10px 10px;
+  font-size: 16px;
   text-decoration: none;
   color: ;
 }
@@ -259,4 +258,44 @@ header .center-content .overlay {
   overflow: hidden;
   justify-content: space-around;
   padding-top: 20px;
+}
+.dropdown {
+  z-index: 2;
+  position: absolute;
+  left: 25px;
+  cursor: pointer;
+}
+.dropdown .dropdown-button {
+  padding: 15px;
+  color: ;
+  font-size: 30px;
+  font-weight: bold;
+}
+.dropdown .dropdown-button:hover {
+  background-color: ;
+}
+.dropdown .dropdown-content {
+  width: 100%;
+  position: absolute;
+  background-color: ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  padding: 20px;
+}
+.dropdown .dropdown-link {
+  width: 100%;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 16px;
+  text-decoration: none;
+  color: ;
+}
+.dropdown .dropdown-link:hover {
+  color: ;
+  background-color: ;
+}
+.dropdown .dropdown-hidden {
+  display: none;
 }
