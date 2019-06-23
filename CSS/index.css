@@ -314,3 +314,7 @@ header {
 .dropdown .dropdown-hidden {
   display: none;
 }
+.pic .picOne {
+  height: 10%;
+  width: 100%;
+}
