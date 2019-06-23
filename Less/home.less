@@ -6,6 +6,7 @@ header{
         height: 100vh;
         .flexCenter;
         flex-direction: column;
+        color: @headerColor;
 
     h1{
         text-align: center;
@@ -48,17 +49,43 @@ header{
 
         h2{
             font-size: 3rem;
+            text-align: center;
         }
 
         .area-buttons{
             ul{
                 .flexCenter;
                 justify-content: space-around;
-                padding-top: 20px;
+                padding: 20px;
             }
             li{
                 font-size: 1.6rem;
+                padding: 10px 20px;
+                .borders;
+                margin: 0 10px;
+                cursor: pointer;
             }
+        }
+    }
+}
+// Stylist section....
+.st-main{
+    .flex-wrap;
+    justify-content: center;
+    padding: 0 1.6rem;
+    margin: 0 auto;
+
+    .st-infoBox{
+        .borders;
+        width: 300px;
+        height: 0 auto;
+        border: 1px solid @fifth-color;
+        box-sizing: border-box;
+        padding: 10px;
+        margin: 20px;
+
+        img{
+            padding-bottom: 1.6rem;
         }
     }
 }
