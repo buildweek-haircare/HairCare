@@ -167,8 +167,7 @@ img {
 }
 .dropdown {
   z-index: 2;
-  position: absolute;
-  left: 25px;
+  position: relative;
   cursor: pointer;
 }
 .dropdown .dropdown-button {
@@ -180,10 +179,9 @@ img {
   background-color: #5d4237;
 }
 .dropdown .dropdown-content {
-  width: 300%;
   position: absolute;
   background-color: #c5b6c5;
-  opacity: 0.5;
+  opacity: 0.8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -196,7 +194,6 @@ img {
   padding: 12px 16px;
   font-size: 16px;
   text-decoration: none;
-  color: #020201;
 }
 .dropdown .dropdown-link:hover {
   color: #5d4237;
@@ -204,6 +201,24 @@ img {
 }
 .dropdown .dropdown-hidden {
   display: none;
+}
+.contact-section {
+  padding: 5rem;
+  margin: 0 auto;
+  font-size: 15px;
+  flex-basis: 50%;
+  background: #dabe96;
+}
+footer {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+  font-size: 1.6rem;
+  border-top: 1px dashed #7c7c7c;
+  background: #977d6e;
 }
 header .center-content {
   position: relative;
@@ -214,6 +229,7 @@ header .center-content {
   justify-content: center;
   overflow: hidden;
   flex-direction: column;
+  color: #dabe96;
 }
 header .center-content h1 {
   text-align: center;
@@ -236,7 +252,6 @@ header .center-content .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #977d6e;
   width: 100%;
   height: 100vh;
   opacity: 0.5;
@@ -293,22 +308,6 @@ header .center-content .overlay {
 }
 .st-main .st-infoBox img {
   padding-bottom: 1.6rem;
-}
-.contact-section {
-  padding: 5rem;
-  margin: 0 auto;
-  font-size: 15px;
-  flex-basis: 50%;
-}
-footer {
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  flex-direction: column;
-  font-size: 1.6rem;
-  border-top: 1px dashed #7c7c7c;
 }
 header {
   display: flex;
