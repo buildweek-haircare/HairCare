@@ -171,7 +171,7 @@ img {
   cursor: pointer;
 }
 .dropdown .dropdown-button {
-  padding: 15px;
+  padding: 5px;
   color: #020201;
   font-size: 30px;
   font-weight: bold;
@@ -187,7 +187,7 @@ img {
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
-  padding: 20px;
+  padding: 5px;
 }
 .dropdown .dropdown-link {
   width: 100%;
@@ -253,6 +253,7 @@ header .center-content .overlay {
 }
 .main-container .selection-container h2 {
   font-size: 3rem;
+  text-align: center;
 }
 .main-container .selection-container .area-buttons ul {
   display: flex;
@@ -260,10 +261,15 @@ header .center-content .overlay {
   justify-content: center;
   overflow: hidden;
   justify-content: space-around;
-  padding-top: 20px;
+  padding: 20px;
 }
 .main-container .selection-container .area-buttons li {
   font-size: 1.6rem;
+  padding: 10px 20px;
+  border: 1px solid #5d4237;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px #977d6e;
+  margin-right: 5px;
 }
 header {
   display: flex;
