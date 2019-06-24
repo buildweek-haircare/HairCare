@@ -354,7 +354,7 @@ header {
   color: #5d4237;
   background-color: #d4d4d4;
 }
-.dropdown .dropdown-hidden {
+.dropdown .dropDown-hidden {
   display: none;
 }
 .bannerIMG {
@@ -365,7 +365,7 @@ header {
   padding: 80px 10px;
 }
 .container-about {
-  padding: 30px;
+  padding: 30px 40px;
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -377,7 +377,11 @@ header {
   text-align: center;
   padding: 30px 40px;
 }
+.container-about h2 {
+  padding: 10px 20px;
+}
 .container-about p {
   justify-content: center;
   font-size: 2rem;
+  padding: 30px;
 }
