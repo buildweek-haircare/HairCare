@@ -315,7 +315,7 @@ header .center-content .overlay {
   position: absolute;
   left: 25px;
   cursor: pointer;
-  width: 98%;
+  width: 95%;
 }
 .dropdown .dropdown-button {
   padding: 15px;
@@ -329,17 +329,18 @@ header .center-content .overlay {
   background-color: #5d4237;
 }
 .dropdown .dropdown-content {
-  width: 30%;
-  position: absolute;
+  border: 1px solid #6b7772;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px #dabe96;
+  width: 15%;
   background-color: #c5b6c5;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
   padding: 20px;
-  border-radius: 4%;
-  margin-left: 800px;
-  margin-top: 50px;
+  top: 100%;
+  right: 0;
 }
 .dropdown .dropdown-link {
   width: 100%;
@@ -348,6 +349,7 @@ header .center-content .overlay {
   font-size: 16px;
   text-decoration: none;
   color: #020201;
+  border-bottom: 1px solid #d4d4d4;
 }
 .dropdown .dropdown-link:hover {
   color: #5d4237;
