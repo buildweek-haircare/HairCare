@@ -1,1 +1,49 @@
 ///Login box styling
+.account-login{
+    .flexCenter;
+    flex-direction: column;
+    padding: 40px;
+    height: 61vh;
+    color: @h2-text;
+
+    h1{
+        text-shadow: 2px 3px 2px @headerColor;
+        @media (max-width: 500px){
+            font-size: 3rem;
+        }
+    }
+
+    form{
+        text-align: center;
+        padding-top: 25px;
+        h4{
+            font-size: 1.6rem;
+        }
+        input{
+            width: 100%;
+            padding: 10px 20px;
+            margin: 8px;
+            border: 1px solid @main-background;
+            border-radius: 7px;
+            background-color: @main-background;
+            box-shadow: 1px 0px 0px 2px @footer-color;
+        }
+        button{
+            font-size: 1.6rem;
+            padding: 8px 40px;
+            border: 1px solid @footer-color;
+            border-radius: 12px;
+            background-color: @headerColor;
+            color: @op-color;
+            cursor: pointer;
+            transition: background 1s, color 1s; 
+        }
+
+        button:hover{
+            background: @op-color;
+            color: @headerColor;
+        }
+
+
+    }
+}

@@ -403,3 +403,51 @@ header .center-content .overlay {
   font-size: 2rem;
   padding: 20px;
 }
+.account-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 40px;
+  height: 61vh;
+  color: #393742;
+}
+.account-login h1 {
+  text-shadow: 2px 3px 2px #dabe96;
+}
+@media (max-width: 500px) {
+  .account-login h1 {
+    font-size: 3rem;
+  }
+}
+.account-login form {
+  text-align: center;
+  padding-top: 25px;
+}
+.account-login form h4 {
+  font-size: 1.6rem;
+}
+.account-login form input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px;
+  border: 1px solid #f8f8f8;
+  border-radius: 7px;
+  background-color: #f8f8f8;
+  box-shadow: 1px 0px 0px 2px #7c7c7c;
+}
+.account-login form button {
+  font-size: 1.6rem;
+  padding: 8px 40px;
+  border: 1px solid #7c7c7c;
+  border-radius: 12px;
+  background-color: #dabe96;
+  color: #977d6e;
+  cursor: pointer;
+  transition: background 1s, color 1s;
+}
+.account-login form button:hover {
+  background: #977d6e;
+  color: #dabe96;
+}
