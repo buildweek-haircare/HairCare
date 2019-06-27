@@ -289,6 +289,13 @@ header .center-content .overlay {
   margin: 0 10px;
   cursor: pointer;
 }
+.main-container .selection-container .area-buttons li:hover {
+  text-decoration: underline;
+}
+.main-container .selection-container .area-buttons .activeOn {
+  background-color: #6b7772;
+  color: #ffffff;
+}
 .st-main {
   display: flex;
   flex-wrap: wrap;
