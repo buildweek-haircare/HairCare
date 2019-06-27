@@ -486,3 +486,12 @@ header .center-content .overlay {
   background: #977d6e;
   color: #dabe96;
 }
+p {
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 19px;
+  color: #5d4237;
+  margin-bottom: 20px;
+  margin-left: 26px;
+}
