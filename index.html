@@ -40,19 +40,19 @@
     <!-- selection section..... -->
     <div class="main-container">
       <section class="selection-container">
-        <h2>Select stylist in your area</h2>
         <div class="area-buttons">
+        <h2>Select Stylist in you area</h2>
           <ul>
-            <li>All</li>
-            <li>North Side</li>
-            <li>Downtown</li>
-            <li>South Side</li>
+            <li data-tab="all" class="btn-on activeOn">All</li>
+            <li data-tab="north" class="btn-on">North Side</li>
+            <li data-tab="downtown" class="btn-on">Downtown</li>
+            <li data-tab="south" class="btn-on">South Side</li>
           </ul>
         </div>
       </section>
       <!-- Stylist section and dropdown content.... -->
       <section class="st-main">
-        <div class="st-infoBox">
+        <div data-tab="south" class="st-infoBox">
           <img src="./IMG/stylist1.jpg" alt="stylist-img" />
           <h2>Stylist Name</h2>
           <p>more info..</p>
@@ -65,8 +65,7 @@
             </p>
           </div>
         </div>
-
-        <div class="st-infoBox">
+        <div data-tab="north" class="st-infoBox">
           <img src="./IMG/beauty-curly.jpg" alt="stylist-img" />
           <h2>Stylist Name</h2>
           <p>more info..</p>
@@ -79,8 +78,7 @@
             </p>
           </div>
         </div>
-
-        <div class="st-infoBox">
+        <div data-tab="downtown" class="st-infoBox">
           <img src="./IMG/adults-afro-afro-hair.jpg" alt="stylist-img" />
           <h2>Stylist Name</h2>
           <p>more info..</p>
@@ -93,8 +91,7 @@
             </p>
           </div>
         </div>
-
-        <div class="st-infoBox">
+        <div data-tab="north" class="st-infoBox">
           <img src="./IMG/st2.jpg" alt="stylist-img" />
           <h2>Stylist Name</h2>
           <p>more info..</p>
@@ -107,8 +104,7 @@
             </p>
           </div>
         </div>
-
-        <div class="st-infoBox">
+        <div data-tab="downtown" class="st-infoBox">
           <img src="./IMG/st3.jpg" alt="stylist-img" />
           <h2>Stylist Name</h2>
           <p>more info..</p>
@@ -121,7 +117,7 @@
             </p>
           </div>
         </div>
-        <div class="st-infoBox">
+        <div data-tab="south" class="st-infoBox">
           <img src="./IMG/st4.jpg" alt="stylist-img" />
           <h2>Stylist Name</h2>
           <p>more info..</p>
@@ -134,7 +130,7 @@
             </p>
           </div>
         </div>
-        <div class="st-infoBox">
+        <div data-tab="downtown" class="st-infoBox">
           <img src="./IMG/st5.jpg" alt="stylist-img" />
           <h2>Stylist Name</h2>
           <p>more info..</p>
@@ -147,7 +143,7 @@
             </p>
           </div>
         </div>
-        <div class="st-infoBox">
+        <div data-tab="north" class="st-infoBox">
           <img src="./IMG/st6.jpg" alt="stylist-img" />
           <h2>Stylist Name</h2>
           <p>more info..</p>
@@ -160,8 +156,7 @@
             </p>
           </div>
         </div>
-
-        <div class="st-infoBox">
+        <div data-tab="south" class="st-infoBox">
           <img src="./IMG/st7.jpg" alt="stylist-img" />
           <h2>Stylist Name</h2>
           <p>more info..</p>
@@ -174,8 +169,7 @@
             </p>
           </div>
         </div>
-
-        <div class="st-infoBox">
+        <div data-tab="south" class="st-infoBox">
           <img src="./IMG/st8.jpg" alt="stylist-img" />
           <h2>Stylist Name</h2>
           <p>more info..</p>
@@ -188,8 +182,7 @@
             </p>
           </div>
         </div>
-
-        <div class="st-infoBox">
+        <div data-tab="downtown" class="st-infoBox">
           <img src="./IMG/st11.jpg" alt="stylist-img" />
           <h2>Stylist Name</h2>
           <p>more info..</p>
@@ -202,8 +195,7 @@
             </p>
           </div>
         </div>
-
-        <div class="st-infoBox">
+        <div data-tab="downtown" class="st-infoBox">
           <img src="./IMG/st10.jpg" alt="stylist-img" />
           <h2>Stylist Name</h2>
           <p>more info..</p>
@@ -224,6 +216,7 @@
       <p>
         if you have question in regards of your stylist, please contact us
         <br />
+        <br/>
         1234 fourfivethree ave <br />
         123-334-3454 <br />
         <a href="mailto:"> info@haircare.com </a>
