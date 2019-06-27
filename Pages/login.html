@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/5634d4c23c.js"></script>
     <title>Login</title>
   </head>
-  <body >
+  <body>
     <script defer="defer" src="../JS/dropdown.js"></script>
     <!-- navigation button and dropdown menu... -->
     <header>
@@ -26,68 +26,23 @@
         </div>
       </nav>
     </header>
-    
-    <div class="wrapper">
-      <!-- Start of form-->
-      <div class="account-login">
-        <div class="form-container signin-container">
-          <form action="">
-            <h1>Account Login</h1>
-            <input type="text" placeholder="Email" />
-          <input type="text" placeholder="Password" />
-            <button type="submit" class="btn">Login</button>
-          </form>
-        </div>
-        <h5>
-          <div class="social-container">
-            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-          <span> or sign in with</span>
-          <a href="https://mail.google.com">Google account</a>
-        </h5>
-      </div>
-      <div class="account-Sign-Up">
-        <div class="form-container signup-container">
-          <form action="">
-            <h1>Account Sign Up</h1>
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Email" />
-           <input type="text" placeholder="Password" />
-            <button type="submit" class="btn">Sign Up</button>
-          </form>
-        </div>
-        <h5>
-          <div class="social-container">
-            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-          <span>or register with</span>
-          <a href="https://mail.google.com">Google account</a>
-        </h5>
-      </div>
-      <!--End of forms-->
 
-      <!--Start of overlay-->
-      <div class="overlay-wrapper">
-        <div class="overlay">
-          <div class="overlay-panel overlay-left">
-            <h1>Welcome Back!</h1>
-            <p>Stylist Veiw and Update Your Profile</p>
-            <button class="hide" id="signin">Login</button>
-          </div>
-        </div>
-        <div class="overlay-panel overlay-right">
-            <h1>Hello, Stylist!</h1>
-            <p>Sign up to create Your Profile</p>
-            <button class="hide" id="signup">Sign Up</button>
-          </div>
-        </div>
-      </div>
-      <!--End of overlay -->
+    <!-- start of login form-->
+    <div class="account-login">
+      <h1>Account Login</h1>
+      <form method="POST">
+        <h4>Username</h4>
+        <input type="text" required="required" />
+        <h4>Password</h4>
+        <input type="text" required="required" />
+        <button type="submit" class="btn">Login</button>
+      </form>
+      <h5>
+        or sign in/register with
+        <a href="https://mail.google.com">Google account</a>
+      </h5>
     </div>
+
     <!--contect section-->
     <address class="contact-section">
       <h2>contact</h2>
