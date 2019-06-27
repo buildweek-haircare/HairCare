@@ -403,3 +403,36 @@ header .center-content .overlay {
   font-size: 2rem;
   padding: 20px;
 }
+.form-container {
+  top: 0;
+  position: absolute;
+  transition: all 0.8s ease-in-out;
+  height: 100%;
+}
+.signin-container {
+  left: 0;
+  z-index: 2;
+  width: 50%;
+}
+.signup-container {
+  left: 0;
+  z-index: 1;
+  width: 50%;
+  opacity: 0;
+}
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #f0f0f0;
+  padding: 0 50px;
+  height: 100vh;
+}
+input {
+  border: none;
+  width: 100%;
+  margin: 8px 0;
+  background: #c3c3c3;
+}
