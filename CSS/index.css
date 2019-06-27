@@ -382,6 +382,16 @@ header .center-content .overlay {
   width: 100%;
   opacity: 0.7;
 }
+@media (max-width: 1000px) {
+  .bannerIMG {
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .bannerIMG {
+    height: 200px;
+  }
+}
 .container-about {
   padding: 30px 40px;
   display: flex;
@@ -389,11 +399,13 @@ header .center-content .overlay {
   width: 80%;
   margin: 0 auto;
   background: #f8f8f8;
+  color: #393742;
 }
 .container-about h1 {
   margin-top: 30px;
   text-align: center;
   padding: 30px 40px;
+  text-shadow: 2px 3px 2px #dabe96;
 }
 .container-about h2 {
   padding: 10px 20px;
@@ -402,6 +414,22 @@ header .center-content .overlay {
   justify-content: center;
   font-size: 2rem;
   padding: 20px;
+}
+@media (max-width: 500px) {
+  .container-about {
+    width: 100%;
+  }
+  .container-about h1 {
+    margin-top: 5px;
+    padding: 20px 30px;
+    font-size: 3rem;
+  }
+  .container-about h2 {
+    font-size: 3rem;
+  }
+  .container-about p {
+    font-size: 1.8rem;
+  }
 }
 .account-login {
   display: flex;
