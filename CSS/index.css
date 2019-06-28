@@ -131,7 +131,7 @@ table {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v13/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v14/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Sniglet';
@@ -349,6 +349,12 @@ header .center-content .overlay {
   top: 100%;
   right: 0;
 }
+@media (max-width: 500px) {
+  .dropdown .dropdown-content {
+    height: 250%;
+    width: 80%;
+  }
+}
 .dropdown .dropdown-link {
   width: 100%;
   text-align: center;
@@ -365,11 +371,22 @@ header .center-content .overlay {
 .dropdown .dropDown-hidden {
   display: none;
 }
+@media (max-width: 500px) {
+  .dropdown {
+    height: 80px;
+    width: 80%;
+  }
+}
 .navBar {
   width: 100%;
   height: 10vh;
   background: #dabe96;
   z-index: 1;
+}
+@media (max-width: 500px) {
+  .navBar {
+    height: 300px;
+  }
 }
 .navBar .logo {
   display: flex;
@@ -485,4 +502,13 @@ header .center-content .overlay {
 .account-login form button:hover {
   background: #977d6e;
   color: #dabe96;
+}
+p {
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 19px;
+  color: #5d4237;
+  margin-bottom: 20px;
+  margin-left: 26px;
 }
