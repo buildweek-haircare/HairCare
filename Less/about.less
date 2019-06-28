@@ -35,23 +35,25 @@
       height: 250%;
       width: 90%;
     }
-  }
 
-  .dropdown-link {
-    width: 100%;
-    text-align: center;
-    padding: 12px 16px;
-    font-size: 16px;
-    text-decoration: none;
-    color: @primary-colors;
-    border-bottom: 1px solid @fifth-color;
+    .dropdown-link {
+      width: 100%;
+      text-align: center;
+      padding: 12px 16px;
+      font-size: 16px;
+      text-decoration: none;
+      color: @primary-colors;
+      border-bottom: 1px solid @fifth-color;
 
-    &:hover {
-      color: @secondary-color;
-      background-color: @fifth-color;
+      &:hover {
+        color: @secondary-color;
+        background-color: @fifth-color;
+      }
+      @media @mobile {
+        color: @headerColor;
+      }
     }
   }
-
   .dropDown-hidden {
     display: none;
   }
@@ -77,8 +79,6 @@
     margin-right: 15px;
     z-index: 2;
     float: left;
-  }
-  @media @mobile {
   }
 }
 /// content and banner
