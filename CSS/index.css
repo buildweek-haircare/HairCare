@@ -403,6 +403,14 @@ header .center-content .overlay {
 .st-main .st-infoBox img {
   padding-bottom: 1.6rem;
 }
+@media (max-width: 500px) {
+  .st-main h2 {
+    font-size: 2rem;
+  }
+  .st-main .display p {
+    display: none;
+  }
+}
 .dropdown {
   z-index: 2;
   position: absolute;
