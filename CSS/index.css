@@ -541,23 +541,33 @@ header .center-content .overlay {
   justify-content: center;
   overflow: hidden;
   flex-direction: column;
-  padding: 60px;
-  height: 61vh;
+  padding: 50px;
+}
+.qa-page-container .question-box {
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px solid #f2eee6;
+  margin: 20px 0 30px;
+  position: relative;
 }
 .qa-page-container h1 {
   text-shadow: 2px 3px 2px #dabe96;
+  padding: 35px 45px;
+  justify-content: center;
+  display: flex;
 }
 @media (max-width: 500px) {
   .qa-page-container h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 .qa-page-container p {
   margin-bottom: 10px;
+  font-size: 14px;
 }
 .qa-page-container h3 {
   font-size: 19px;
   color: #5d4237;
-  margin-bottom: 20px;
-  margin-left: 26px;
+  margin: 0 0 26px 20px;
+  padding-top: 20px;
 }
