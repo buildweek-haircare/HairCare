@@ -353,7 +353,6 @@ header .center-content .overlay {
   .dropdown .dropdown-content {
     height: 250%;
     width: 90%;
-    background: #5d4237;
   }
 }
 .dropdown .dropdown-content .dropdown-link {
@@ -380,7 +379,7 @@ header .center-content .overlay {
 @media (max-width: 500px) {
   .dropdown {
     height: 80px;
-    width: 80%;
+    width: 90%;
   }
 }
 .navBar {
@@ -388,11 +387,6 @@ header .center-content .overlay {
   height: 10vh;
   background: #dabe96;
   z-index: 1;
-}
-@media (max-width: 800px) {
-  .navBar {
-    height: 80px;
-  }
 }
 .navBar .logo {
   display: flex;
