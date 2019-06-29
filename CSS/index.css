@@ -209,6 +209,9 @@ img {
   flex-basis: 50%;
   background: #dabe96;
 }
+.contact-section h2 {
+  text-shadow: 2px 3px 2px #5d4237;
+}
 footer {
   padding: 2rem;
   display: flex;
@@ -216,9 +219,14 @@ footer {
   justify-content: center;
   overflow: hidden;
   flex-direction: column;
+  text-align: center;
   font-size: 1.6rem;
   border-top: 1px dashed #7c7c7c;
   background: #977d6e;
+}
+body {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 header .center-content {
   position: relative;
@@ -235,12 +243,30 @@ header .center-content h1 {
   text-align: center;
   font-size: 8rem;
   font-family: "Pacifico", cursive;
+  text-shadow: 2px 3px 2px rgba(199, 152, 16, 0.3);
   padding: 20px;
   z-index: 1;
 }
 header .center-content p {
   z-index: 1;
   font-size: 2rem;
+}
+header .center-content .header-button {
+  z-index: 1;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #c79810;
+  border: 1px solid #c79810;
+  box-shadow: 2px 3px 2px #dabe96;
+  color: aliceblue;
+  background-color: rgba(199, 152, 16, 0.7);
+  border-radius: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+header .center-content .header-button a {
+  text-decoration: none;
+  color: aliceblue;
 }
 header .center-content .video-container {
   position: absolute;
@@ -292,6 +318,11 @@ header .center-content .overlay {
 .main-container .selection-container .area-buttons li:hover {
   text-decoration: underline;
 }
+@media (max-width: 500px) {
+  .main-container .selection-container .area-buttons li {
+    font-size: 1.2rem;
+  }
+}
 .main-container .selection-container .area-buttons .activeOn {
   background-color: #c79810;
   border: 1px solid #c79810;
@@ -304,11 +335,16 @@ header .center-content .overlay {
   justify-content: center;
   overflow: hidden;
   width: 100%;
-  height: 50vh;
+  height: 66vh;
   background: linear-gradient(45deg, rgba(234, 185, 45, 0.2) 0%, rgba(199, 152, 16, 0.2) 100%), url("../IMG/background-afro.jpg");
+  background-size: cover;
+}
+.main-container .aboutUs .aboutUs-text {
+  color: #dabe96;
 }
 .main-container .aboutUs .aboutUs-text h2 {
   font-size: 4rem;
+  text-shadow: 2px 3px 2px rgba(199, 152, 16, 0.3);
 }
 .main-container .aboutUs .aboutUs-text p {
   font-size: 2rem;
@@ -326,12 +362,25 @@ header .center-content .overlay {
   text-decoration: none;
   color: aliceblue;
 }
+@media (max-width: 500px) {
+  .main-container .aboutUs {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+  }
+}
 .st-main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0 1.6rem;
   margin: 0 auto;
+}
+.st-main button {
+  background-color: #c79810;
+  border: 1px solid #c79810;
+  box-shadow: 2px 3px 2px #dabe96;
+  color: aliceblue;
 }
 .st-main h5 {
   text-align: center;
@@ -353,6 +402,14 @@ header .center-content .overlay {
 }
 .st-main .st-infoBox img {
   padding-bottom: 1.6rem;
+}
+@media (max-width: 500px) {
+  .st-main h2 {
+    font-size: 2rem;
+  }
+  .st-main .display p {
+    display: none;
+  }
 }
 .dropdown {
   z-index: 2;
@@ -517,17 +574,18 @@ header .center-content .overlay {
   padding: 10px 20px;
   margin: 8px;
   border: 1px solid #f8f8f8;
-  border-radius: 7px;
+  border-radius: 2px;
   background-color: #f8f8f8;
   box-shadow: 1px 0px 0px 2px #7c7c7c;
 }
 .account-login form button {
   font-size: 1.6rem;
   padding: 8px 40px;
-  border: 1px solid #7c7c7c;
-  border-radius: 12px;
-  background-color: #dabe96;
-  color: #977d6e;
+  margin: 5px;
+  background-color: #c79810;
+  border: 1px solid #c79810;
+  box-shadow: 2px 3px 2px #dabe96;
+  color: aliceblue;
   cursor: pointer;
   transition: background 1s, color 1s;
 }
