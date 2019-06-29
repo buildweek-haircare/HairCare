@@ -318,7 +318,7 @@ header .center-content .overlay {
 .main-container .selection-container .area-buttons li:hover {
   text-decoration: underline;
 }
-@media (max-width: 500px) {
+@media (max-width: 530px) {
   .main-container .selection-container .area-buttons li {
     font-size: 1.2rem;
   }
@@ -328,6 +328,20 @@ header .center-content .overlay {
   border: 1px solid #c79810;
   box-shadow: 2px 3px 2px #dabe96;
   color: aliceblue;
+}
+@media (max-width: 530px) {
+  .main-container .selection-container {
+    margin: 0;
+  }
+  .main-container .selection-container ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  .main-container .selection-container li {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
 }
 .main-container .aboutUs {
   display: flex;
@@ -362,7 +376,7 @@ header .center-content .overlay {
   text-decoration: none;
   color: aliceblue;
 }
-@media (max-width: 500px) {
+@media (max-width: 530px) {
   .main-container .aboutUs {
     width: 100%;
     height: 500px;
@@ -403,7 +417,7 @@ header .center-content .overlay {
 .st-main .st-infoBox img {
   padding-bottom: 1.6rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 530px) {
   .st-main h2 {
     font-size: 2rem;
   }
@@ -443,7 +457,7 @@ header .center-content .overlay {
   top: 100%;
   right: 0;
 }
-@media (max-width: 500px) {
+@media (max-width: 530px) {
   .dropdown .dropdown-content {
     height: 250%;
     width: 90%;
@@ -462,7 +476,7 @@ header .center-content .overlay {
   color: #5d4237;
   background-color: #d4d4d4;
 }
-@media (max-width: 500px) {
+@media (max-width: 530px) {
   .dropdown .dropdown-content .dropdown-link {
     color: #dabe96;
   }
@@ -470,7 +484,7 @@ header .center-content .overlay {
 .dropdown .dropDown-hidden {
   display: none;
 }
-@media (max-width: 500px) {
+@media (max-width: 530px) {
   .dropdown {
     height: 80px;
     width: 90%;
