@@ -22,12 +22,14 @@ btnOn(){
     const btn = document.querySelectorAll('.btn-on');
 
     btn.forEach(box => box.classList.remove("activeOn"));
+    btn.forEach(box => box.classList.remove("shake"));
 
     const stInfo = document.querySelectorAll('.st-infoBox');
 
     stInfo.forEach( st => st.style.display = "none");
 
     this.element.classList.add('activeOn');
+    this.element.classList.add('shake');
 
     this.box.forEach(boxes => boxes.selectBox());
 }
