@@ -1,11 +1,25 @@
 ///q&a styles
 
-p {
-  margin-bottom: 10px;
-}
-h3 {
-  font-size: 19px;
-  color: @secondary-color;
-  margin-bottom: 20px;
-  margin-left: 26px;
+.qa-page-container {
+  .flexCenter;
+  flex-direction: column;
+  padding: 60px;
+  height: 61vh;
+
+  h1 {
+    text-shadow: 2px 3px 2px @headerColor;
+    @media @mobile {
+      font-size: 3rem;
+    }
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 19px;
+    color: @secondary-color;
+    margin-bottom: 20px;
+    margin-left: 26px;
+  }
 }

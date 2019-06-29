@@ -368,11 +368,6 @@ header .center-content .overlay {
   color: #5d4237;
   background-color: #d4d4d4;
 }
-@media (max-width: 500px) {
-  .dropdown .dropdown-content .dropdown-link {
-    color: #dabe96;
-  }
-}
 .dropdown .dropDown-hidden {
   display: none;
 }
@@ -503,10 +498,27 @@ header .center-content .overlay {
   background: #977d6e;
   color: #dabe96;
 }
-p {
+.qa-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 60px;
+  height: 61vh;
+}
+.qa-page-container h1 {
+  text-shadow: 2px 3px 2px #dabe96;
+}
+@media (max-width: 500px) {
+  .qa-page-container h1 {
+    font-size: 3rem;
+  }
+}
+.qa-page-container p {
   margin-bottom: 10px;
 }
-h3 {
+.qa-page-container h3 {
   font-size: 19px;
   color: #5d4237;
   margin-bottom: 20px;
