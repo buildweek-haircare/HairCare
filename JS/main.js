@@ -25,8 +25,10 @@ btnOn(){
     btn.forEach(box => box.classList.remove("shake"));
 
     const stInfo = document.querySelectorAll('.st-infoBox');
+    const animation = document.querySelectorAll('.bounceIn');
 
     stInfo.forEach( st => st.style.display = "none");
+    animation.forEach(an => an.classList.remove('bounceIn'));
 
     this.element.classList.add('activeOn');
     this.element.classList.add('shake');
@@ -38,9 +40,11 @@ btnOn(){
 class StBox {
     constructor(btnElement){
         this.btnElement = btnElement;
+        this.animationAdd = document.querySelectorAll('.bounceIn');
     }
 
     selectBox(){
+        this.animationAdd.forEach(animation => animation.classList.add('bounceIn'));
         this.btnElement.style.display = "inline-block";
     }
 }
