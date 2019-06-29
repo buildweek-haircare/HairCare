@@ -1,11 +1,36 @@
 ///q&a styles
 
-p {
-  margin-bottom: 10px;
-}
-h3 {
-  font-size: 19px;
-  color: @secondary-color;
-  margin-bottom: 20px;
-  margin-left: 26px;
+.qa-page-container {
+  .flexCenter;
+  flex-direction: column;
+  padding: 50px;
+  .question-box {
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #f2eee6;
+    margin: 20px 0 30px;
+    position: relative;
+  }
+
+  h1 {
+    text-shadow: 2px 3px 2px @headerColor;
+    padding: 35px 45px;
+    justify-content: center;
+    display: flex;
+    @media @mobile {
+      font-size: 4rem;
+    }
+  }
+
+  p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 19px;
+    color: @secondary-color;
+    margin: 0 0 26px 20px;
+    padding-top: 20px;
+  }
 }
