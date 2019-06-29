@@ -235,12 +235,30 @@ header .center-content h1 {
   text-align: center;
   font-size: 8rem;
   font-family: "Pacifico", cursive;
+  text-shadow: 2px 3px 2px rgba(199, 152, 16, 0.3);
   padding: 20px;
   z-index: 1;
 }
 header .center-content p {
   z-index: 1;
   font-size: 2rem;
+}
+header .center-content .header-button {
+  z-index: 1;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #c79810;
+  border: 1px solid #c79810;
+  box-shadow: 2px 3px 2px #dabe96;
+  color: aliceblue;
+  background-color: rgba(199, 152, 16, 0.7);
+  border-radius: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+header .center-content .header-button a {
+  text-decoration: none;
+  color: aliceblue;
 }
 header .center-content .video-container {
   position: absolute;
@@ -332,6 +350,14 @@ header .center-content .overlay {
   justify-content: center;
   padding: 0 1.6rem;
   margin: 0 auto;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.st-main button {
+  background-color: #c79810;
+  border: 1px solid #c79810;
+  box-shadow: 2px 3px 2px #dabe96;
+  color: aliceblue;
 }
 .st-main h5 {
   text-align: center;

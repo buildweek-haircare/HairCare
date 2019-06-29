@@ -12,6 +12,7 @@ header{
         text-align: center;
         font-size: 8rem;
         font-family: @header-font;
+        text-shadow: 2px 3px 2px rgba(199,152,16, 0.30);
         padding: 20px;
         z-index: 1;
     }
@@ -19,6 +20,22 @@ header{
     p{
         z-index: 1;
         font-size: 2rem;
+    }
+
+    .header-button{
+        z-index: 1;
+        margin-top: 20px;
+        padding: 10px 25px;
+        .buttons;
+        background-color: rgba(199,152,16, 0.70);
+        border-radius: 5px;
+        font-size: 2rem;
+        cursor: pointer;
+
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
     }
 
     .video-container{
@@ -114,6 +131,12 @@ header{
     justify-content: center;
     padding: 0 1.6rem;
     margin: 0 auto;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+    button {
+        .buttons;
+    }
 
 // styling modal section......
     h5{
