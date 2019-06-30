@@ -616,9 +616,10 @@ header .center-content .overlay {
   padding: 50px;
 }
 .qa-page-container .question-box {
+  border: 1px solid #6b7772;
+  box-shadow: 2px 3px 2px #dabe96;
   padding: 30px;
   border-radius: 5px;
-  border: 1px solid #f2eee6;
   margin: 20px 0 30px;
   position: relative;
 }
